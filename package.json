@@ -1,6 +1,6 @@
 {
   "name": "@brightcove/kacl",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Keep a Changelog tooling for automating changelog releases",
   "main": "src/index.js",
   "bin": {
