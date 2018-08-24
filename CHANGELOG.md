@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.1.2] - 2018-08-24
+
 ### Added
 
 - Added section on usage with [gh-release](https://github.com/hypermodules/gh-release) to README
@@ -24,5 +26,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Initial tooling for changelog linting and automated releases
 
-[Unreleased]: https://github.com/brightcove/kacl/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/brightcove/kacl/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/brightcove/kacl/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/brightcove/kacl/compare/v0.1.0...v0.1.1
