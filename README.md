@@ -70,7 +70,7 @@ Contributions are welcome, please see the [contributing guidelines](https://gith
 
 ## Issues and Questions
 
-This project uses github issues, please file issues and questions [here](https://github.com/kacl/changelog/issues).
+This project uses github issues, please file issues and questions [here](https://github.com/brightcove/kacl/issues).
 
 ## Attributions and Thanks
 
