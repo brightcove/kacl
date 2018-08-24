@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+  - "node"
+  - "lts/*"
+install:
+  - npm i
+  - npm i -g codecov
+script:
+  - npm test
+  - npm run report
+  - codecov

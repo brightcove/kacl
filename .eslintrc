@@ -1,0 +1,25 @@
+{
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "semi": ["error", "always"],
+    "no-var": "error",
+    "prefer-const": "error",
+    "indent": ["error", 2, {
+      "SwitchCase": 1
+    }],
+    "curly": ["error", "all"],
+    "comma-dangle": ["error", "always-multiline"],
+    "brace-style": "error",
+    "eqeqeq": ["error", "always", {
+      "null": "ignore"
+    }],
+    "no-multi-spaces": "error",
+    "no-console": "off"
+  }
+}
