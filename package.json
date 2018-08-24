@@ -1,13 +1,13 @@
 {
   "name": "@brightcove/kacl",
   "version": "0.1.0",
-  "description": "",
+  "description": "Keep a Changelog tooling for automating changelog releases",
   "main": "src/index.js",
   "bin": {
     "kacl": "kacl.js"
   },
   "scripts": {
-    "pretest": "eslint src test && ./src/index.js lint",
+    "pretest": "eslint kacl.js src test && ./kacl.js lint",
     "test": "nyc --reporter html --reporter text mocha",
     "report": "nyc report --reporter=text-lcov > coverage.lcov",
     "preversion": "./kacl.js prerelease",
