@@ -9,6 +9,11 @@
 
 ## Usage
 
+### Requirements
+
+- Node 8+
+- package.json contains an http or https repository URL
+
 ### Installation
 
 ```bash
@@ -53,6 +58,25 @@ This setup does the following:
 - Lints your changelog after running tests
 - Checks the changelog before bumping the version with `npm version` to ensure there is an unreleased entry
 - Updates the changelog and adds it to git after the version has been bumped with `npm version`. The changelog changes will automatically be committed as part of `npm version`.
+
+### Usage with [gh-release](https://github.com/hypermodules/gh-release)
+
+[gh-release](https://github.com/hypermodules/gh-release) is a tool which will automatically create a tag and release on GitHub. It pairs nicely with kacl, and with both tools you can completely automate your version bumping. The following is a recommendation for setting up package.json scripts to use kacl with gh-release.
+
+```json
+{
+  "scripts": {
+    "posttest": "kacl lint",
+    "preversion": "kacl prerelease",
+    "version": "kacl release && git add CHANGELOG.md",
+    "postversion": "git push && gh-release"
+  }
+}
+```
+
+This performs the same steps as what's laid out in the [Usage in package.json](https://github.com/brightcove/kacl#usage-in-packagejson) section, with the addition of the following:
+
+- Pushes the new version to GitHub and creates a GitHub release using the updated changelog.
 
 ## Info
 

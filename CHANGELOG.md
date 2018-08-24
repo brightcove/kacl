@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+
+- Added section on usage with [gh-release](https://github.com/hypermodules/gh-release) to README
+- Added requirements section in README
+
 ## [0.1.1] - 2018-08-24
 
 ### Changed
