@@ -1,7 +1,7 @@
 [![Version](https://img.shields.io/npm/v/@brightcove/kacl.svg)](https://www.npmjs.com/package/@brightcove/kacl)
 [![Downloads](https://img.shields.io/npm/dt/@brightcove/kacl.svg)](https://www.npmjs.com/package/@brightcove/kacl)
 [![Build Status](https://travis-ci.org/brightcove/kacl.svg?branch=master)](https://travis-ci.org/brightcove/kacl)
-[![Coverage](https://img.shields.io/codecov/c/github/brightcove/kacl/master.svg)](https://codecov.io/gh/brightcove/kacl)
+[![Coverage](https://img.shields.io/codecov/c/github/brightcove/kacl/master.svg)](https://codecov.io/gh/brightcove/kacl) [![Greenkeeper badge](https://badges.greenkeeper.io/brightcove/kacl.svg)](https://greenkeeper.io/)
 
 # kacl
 
