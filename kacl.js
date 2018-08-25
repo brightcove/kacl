@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const { chalk } = require('chalk');
+const chalk = require('chalk');
 const { init, lint, release } = require('./src');
 
 function run () {
