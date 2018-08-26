@@ -13,7 +13,7 @@
 ### Requirements
 
 - Node 8+
-- package.json contains an http or https repository URL
+- package.json contains a valid git repository URL
 
 ### Installation
 

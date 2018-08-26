@@ -19,5 +19,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Did something
 
-[Unreleased]: https://github.com/brightcove/changelog/compare/v0.1.0...HEAD
-[0.1.0]: https://github.com/brightcove/changelog/compare/v0.0.1...v0.1.0
+[Unreleased]: https://github.com/brightcove/kacl/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/brightcove/kacl/compare/v0.0.1...v0.1.0

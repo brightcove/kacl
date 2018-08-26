@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+
+- Allow different git URL types in package repository url field to follow the [package.json standard](https://docs.npmjs.com/files/package.json#repository)
+
 ## [0.1.3] - 2018-08-25
 
 ### Fixed

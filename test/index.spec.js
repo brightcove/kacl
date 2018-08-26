@@ -1,4 +1,4 @@
-const { init, lint, release } = require('../src');
+const { getPackageUrl, init, lint, release } = require('../src');
 const sinon = require('sinon');
 const path = require('path');
 const fs = require('fs');
@@ -36,7 +36,7 @@ function checkPackageJson (func) {
     fs.readFileSync.returns('{"repository":{"url": "git://foo"}}');
     expect(() => {
       func();
-    }).to.throw(/Repository URL in package\.json must be an http or https URL/);
+    }).to.throw(/Repository URL in package\.json must be a valid URL to a git repository/);
   });
 }
 
@@ -79,6 +79,40 @@ describe('index', () => {
 
   afterEach(() => {
     sinon.restore();
+  });
+
+  describe('getPackageUrl', () => {
+    it('should do nothing for a standard https url', () => {
+      expect(getPackageUrl('https://github.com/brightcove/kacl')).to.equal('https://github.com/brightcove/kacl');
+    });
+    
+    it('should strip the ending .git from an https url', () => {
+      expect(getPackageUrl('https://github.com/brightcove/kacl.git')).to.equal('https://github.com/brightcove/kacl');
+    });
+
+    it('should convert a git@ url', () => {
+      expect(getPackageUrl('git@github.com:brightcove/kacl.git')).to.equal('https://github.com/brightcove/kacl');
+    });
+    
+    it('should convert an ssh url', () => {
+      expect(getPackageUrl('ssh://github.com:brightcove/kacl.git')).to.equal('https://github.com/brightcove/kacl');
+    });
+    
+    it('should convert an ssh://git@ url', () => {
+      expect(getPackageUrl('ssh://git@github.com:brightcove/kacl.git')).to.equal('https://github.com/brightcove/kacl');
+    });
+    
+    it('should convert a git+https url', () => {
+      expect(getPackageUrl('git+https://github.com/brightcove/kacl.git')).to.equal('https://github.com/brightcove/kacl');
+    });
+
+    it('should convert a git+ssh url', () => {
+      expect(getPackageUrl('git+ssh://git@github.com:brightcove/kacl.git')).to.equal('https://github.com/brightcove/kacl');
+    });
+
+    it('should work with ports on ssh urls', () => {
+      expect(getPackageUrl('ssh://git@github.com:1234:brightcove/kacl.git')).to.equal('https://github.com:1234/brightcove/kacl');
+    });
   });
 
   describe('init', () => {

@@ -7,8 +7,9 @@
     "kacl": "kacl.js"
   },
   "scripts": {
-    "pretest": "eslint kacl.js src test && ./kacl.js lint",
+    "pretest": "eslint kacl.js src test",
     "test": "nyc --reporter html --reporter text mocha",
+    "posttest": "./kacl.js lint",
     "report": "nyc report --reporter=text-lcov > coverage.lcov",
     "preversion": "./kacl.js prerelease",
     "version": "./kacl.js release && git add CHANGELOG.md",
@@ -23,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/brightcove/kacl"
+    "url": "https://github.com/brightcove/kacl.git"
   },
   "devDependencies": {
     "chai": "^4.1.2",
