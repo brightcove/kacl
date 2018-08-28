@@ -2,6 +2,16 @@
   "name": "@brightcove/kacl",
   "version": "0.1.4",
   "description": "Keep a Changelog tooling for automating changelog releases",
+  "keywords": [
+    "changelog",
+    "keep-a-changelog",
+    "release",
+    "release-automation"
+  ],
+  "homepage": "https://github.com/brightcove/kacl",
+  "bugs": {
+    "url": "https://github.com/brightcove/kacl/issues"
+  },
   "main": "src/index.js",
   "bin": {
     "kacl": "kacl.js"
