@@ -29,8 +29,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "chalk": "^2.4.1",
-    "keep-a-changelog": "^0.6.3",
-    "semver": "^5.5.1"
+    "keep-a-changelog": "^0.6.4"
   },
   "repository": {
     "type": "git",

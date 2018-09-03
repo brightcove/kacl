@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-const Semver = require('semver');
 const { parser, Release, Changelog } = require('keep-a-changelog');
 const fs = require('fs');
 const chalk = require('chalk');
@@ -98,13 +97,13 @@ module.exports.release = function () {
   const changelog = getChangelog();
   changelog.url = pkg.repository.url;
 
-  const unreleased = changelog.releases.find(release => !release.version);
-  const existingRelease = changelog.releases.some(release => release.version && Semver.eq(release.version, pkg.version));
+  const unreleased = changelog.findRelease();
+  const existingRelease = changelog.findRelease(pkg.version);
 
   if (!existingRelease) {
     ensureChangesForRelease(unreleased);
-    
-    unreleased.version = new Semver(pkg.version);
+
+    unreleased.setVersion(pkg.version);
     unreleased.date = new Date();
 
     changelog.addRelease(new Release());
