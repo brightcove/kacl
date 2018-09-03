@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+
+- Use functions from keep-a-changelog instead the Semver library directly to avoid library versioning issues
+
 ## [0.1.4] - 2018-08-26
 
 ### Fixed
