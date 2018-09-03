@@ -1,6 +1,6 @@
 {
   "name": "@brightcove/kacl",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Keep a Changelog tooling for automating changelog releases",
   "keywords": [
     "changelog",
