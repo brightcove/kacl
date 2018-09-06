@@ -2,9 +2,12 @@ language: node_js
 node_js:
 - node
 - lts/*
+before_install:
+- npm i -g codecov greenkeeper-lockfile@1
 install:
 - npm i
-- npm i -g codecov
+before_script: greenkeeper-lockfile-update
+after_script: greenkeeper-lockfile-upload
 script:
 - npm test
 - npm run report
