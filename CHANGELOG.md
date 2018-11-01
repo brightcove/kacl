@@ -7,9 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.1.6] - 2018-11-01
+
 ### Fixed
 
-- Upgrade keep-a-changelog library to fix #11
+- Upgrade keep-a-changelog library to fix [#11]
 
 ## [0.1.5] - 2018-09-03
 
@@ -48,7 +50,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Initial tooling for changelog linting and automated releases
 
-[Unreleased]: https://github.com/brightcove/kacl/compare/v0.1.5...HEAD
+[#11]: https://github.com/brightcove/kacl/issues/11
+
+[Unreleased]: https://github.com/brightcove/kacl/compare/v0.1.6...HEAD
+[0.1.6]: https://github.com/brightcove/kacl/compare/v0.1.5...v0.1.6
 [0.1.5]: https://github.com/brightcove/kacl/compare/v0.1.4...v0.1.5
 [0.1.4]: https://github.com/brightcove/kacl/compare/v0.1.3...v0.1.4
 [0.1.3]: https://github.com/brightcove/kacl/compare/v0.1.2...v0.1.3
