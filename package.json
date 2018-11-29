@@ -29,7 +29,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "chalk": "^2.4.1",
-    "keep-a-changelog": "^0.6.5"
+    "keep-a-changelog": "^0.7.0"
   },
   "repository": {
     "type": "git",
