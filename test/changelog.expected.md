@@ -8,15 +8,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 
 ## [0.1.0] - 2018-08-24
-
 ### Changed
-
 - Did something else
 
 ## 0.0.1 - 2018-08-23
-
 ### Changed
-
 - Did something
 
 [Unreleased]: https://github.com/brightcove/kacl/compare/v0.1.0...HEAD
