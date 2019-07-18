@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+
+- Upgrade mocha library to fix vulnerabilities
+
 ## [0.1.6] - 2018-11-01
 
 ### Fixed
