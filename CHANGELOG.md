@@ -7,11 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [0.1.8] - 2019-08-29
 ### Fixed
 - Upgrade mocha, eslint and sinon libraries to fix vulnerabilities
 
 ## [0.1.7] - 2019-07-18
-
 ### Fixed
 - Upgrade mocha library to fix vulnerabilities
 
@@ -46,7 +46,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 [#11]: https://github.com/brightcove/kacl/issues/11
 
-[Unreleased]: https://github.com/brightcove/kacl/compare/v0.1.7...HEAD
+[Unreleased]: https://github.com/brightcove/kacl/compare/v0.1.8...HEAD
+[0.1.8]: https://github.com/brightcove/kacl/compare/v0.1.7...v0.1.8
 [0.1.7]: https://github.com/brightcove/kacl/compare/v0.1.6...v0.1.7
 [0.1.6]: https://github.com/brightcove/kacl/compare/v0.1.5...v0.1.6
 [0.1.5]: https://github.com/brightcove/kacl/compare/v0.1.4...v0.1.5
