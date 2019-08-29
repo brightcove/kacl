@@ -7,7 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+- Upgrade mocha, eslint and sinon libraries to fix vulnerabilities
+
 ## [0.1.7] - 2019-07-18
+
 ### Fixed
 - Upgrade mocha library to fix vulnerabilities
 
