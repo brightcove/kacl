@@ -28,7 +28,7 @@
   "author": "Ted Janeczko <tjaneczko@brightcove.com>",
   "license": "Apache-2.0",
   "dependencies": {
-    "chalk": "^2.4.1",
+    "chalk": "^3.0.0",
     "keep-a-changelog": "^0.8.0"
   },
   "repository": {
