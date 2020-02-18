@@ -8,7 +8,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 
 ### Fixed
-- Upgraded nyc to fix vulnerabilities
+- Upgraded multiple libraries to fix vulnerabilities
 
 ## [0.1.8] - 2019-08-29
 ### Fixed
