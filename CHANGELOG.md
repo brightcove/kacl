@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Fixed
+- Updated package-lock.json to  fix vulnerabilities
+
 ## [0.1.9] - 2020-02-18
 ### Fixed
 - Upgraded multiple libraries to fix vulnerabilities
