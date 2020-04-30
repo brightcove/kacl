@@ -81,7 +81,7 @@ This performs the same steps as what's laid out in the [Usage in package.json](h
 
 ## Info
 
-- Status: Active
+- Status: Abandoned
 - Type: Utility
 - Versioning: [Semantic Versioning](http://semver.org/spec/v2.0.0.html)
 
