@@ -87,7 +87,7 @@ This performs the same steps as what's laid out in the [Usage in package.json](h
 
 ## Maintainers
 
-None; the former maintainer has since left Brightcove.  The former maintainer is
+None.  The former lead maintainer, who has left Brightcove, is
 
 - Ted Janeczko - [@tjaneczko](https://github.com/tjaneczko)
 
