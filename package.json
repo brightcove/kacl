@@ -37,8 +37,8 @@
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "eslint": "^6.2.2",
-    "gh-release": "^4.0.3",
+    "eslint": "^10.4.0",
+    "gh-release": "^7.0.2",
     "mocha": "^7.0.1",
     "nyc": "^15.0.0",
     "sinon": "^8.1.0",
